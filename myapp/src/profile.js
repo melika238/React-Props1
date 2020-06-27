@@ -9,29 +9,9 @@ return (
 <p>Full Name:{props.fullname}</p>
 <p>Age:{props.age}</p>
 <p>Profession:{props.profession}</p>
+    {props.children}
 </div>)}
-
-const Picture = (props) => {
-    return (
-      <div>
-        {props.children}
-      </div>
-    )
-   };
    
-   
-
-const PROFILE = () => {
-return (<  Profile
-fullname="kouki malika" bio="etudiante" profession="devloppeuse junior"
-/>);}
-const image = () => {
- <div>
- <Picture >
-          <img src={image} />
- </Picture>
- </div>
-};
 const ActionLink=()=>{
 const handleName =name=>{name.preventDefault();
 alert(props.fullname);};
