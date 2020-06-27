@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <profile/>
+    <profile fullname="kouki malika" bio="etudiante" profession="devloppeuse junior"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
